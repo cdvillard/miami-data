@@ -1,0 +1,37 @@
+body {
+  background-image: url("mia-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: 'Archivo Narrow', 'Arial Narrow', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, {
+  font-family: 'Archivo Narrow', 'Arial Narrow', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+}
+
+div#main {
+  position: relative;
+  width: 80vw;
+  margin: 15vh auto;
+  padding: 15vh 5vh;
+  background: #fff;
+}
+
+h1#title-display {
+  text-align: center;
+  color: rgb(50, 176, 219);
+  font-size: 5rem;
+  letter-spacing: -3px;
+  margin-top: 0;
+}
+
+h1#title-display span {
+  text-align: center;
+  color: rgb(226, 56, 80);
+}
