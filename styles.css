@@ -19,7 +19,7 @@ div#main {
   position: relative;
   width: 80vw;
   margin: 15vh auto;
-  padding: 15vh 5vh;
+  padding: 10vh 5vh 15vh;
   background: #fff;
 }
 
@@ -29,9 +29,31 @@ h1#title-display {
   font-size: 5rem;
   letter-spacing: -3px;
   margin-top: 0;
+  margin-bottom: 0;
+}
+  
+h1#title-display span {
+  color: rgb(226, 56, 80);
 }
 
-h1#title-display span {
+article.links {
+  margin: 7vh 5vw;
+  padding: 5vh 5vw;
+  outline: solid 3px #000;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+}
+
+footer p {
   text-align: center;
-  color: rgb(226, 56, 80);
+}
+
+@media (max-width: 950px) {
+  br.rwd-linebreak {
+    display: none;
+  }
 }
